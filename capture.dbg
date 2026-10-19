@@ -1,0 +1,7 @@
+.symfix
+.reload
+
+; Replace this with a real function from your application/PDB.
+bu MyApp!Namespace::Worker::run ".echo --- Worker::run ---; .time; ~* kb; g"
+
+g
